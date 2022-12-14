@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.menu__button {
+    border: none;
+    background-color: transparent;
+}

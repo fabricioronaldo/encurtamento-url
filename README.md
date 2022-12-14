@@ -5,10 +5,12 @@ Página inicial de encurtamento de URL utilizando shrtcode API.
 
 ### Elementos principais da página:
 
-- [ ] Logo 
-- [ ] Menu principal
+#### Mobile First
+
+- [X] Logo 
+- [X] Menu principal 
 - [ ] Menu login
-- [ ] Título do site com descrição e botão 
+- [X] Título do site com descrição e botão 
 - [ ] Input com botão
 - [ ] seção de descrição
 - [ ] seção links com botão

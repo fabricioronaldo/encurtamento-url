@@ -1,0 +1,27 @@
+.primary {
+    text-align: center;
+    padding: 1em;
+}
+
+.primary__image {
+}    
+
+.primary__title {
+    padding: .5em 0;
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.primary__description {
+    margin-bottom: 2em;
+    color: var(--Gray);
+    line-height: 1.4em;
+}
+
+.primary__button {
+    padding: .8em 2em;
+    border-radius: 50px;
+    background-color: var(--Cyan);
+    color: white;
+    font-weight: 600;
+}
