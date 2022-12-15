@@ -1,0 +1,30 @@
+.url {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2em);
+    margin: 3em auto;
+    background-image: url("../images/bg-shorten-mobile.svg");
+    background-color: var(--Dark-Violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 2em 1em;
+
+}
+
+.url__form {
+    width: 100;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+.url__button {
+    background: var(--Cyan);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 1em;
+    padding: 1em;
+}
