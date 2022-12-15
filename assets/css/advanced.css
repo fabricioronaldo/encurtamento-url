@@ -1,0 +1,50 @@
+.advanced {
+    background: var(--Gray-Clean);
+    padding: 1em;
+    text-align: center;
+}
+
+.advanced__title {
+    font-size: 1.8em;
+    color: var(--Very-Dark-Blue);
+}
+.advanced__text {
+    color: var(--Gray);
+    line-height: 1.5em;
+}
+
+.card {
+    position: relative;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 5em;
+}
+
+.card__title {
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    color: var(--Very-Dark-Blue);
+}
+
+.card__text {
+    padding: 1em 0;
+    color: var(--Gray);
+    line-height: 1.5em;
+
+}
+
+.card__image {
+    position: absolute;
+    background: var(--Dark-Violet);
+    border-radius: 50%;
+    width: 26%;
+    top: -40px;
+    left: 37%;
+    
+}
+
+.card__image-icone {
+    padding: 1em;
+
+}
