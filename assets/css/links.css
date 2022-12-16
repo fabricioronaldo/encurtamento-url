@@ -1,0 +1,24 @@
+.link {
+    background-image: url(../images/bg-boost-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Dark-Violet);
+    height: 300px;
+    text-align: center;
+}
+
+.link__titulo {
+    padding: 3em 0;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    
+}
+
+.link__button {
+    padding: .8em 2em;
+    border-radius: 50px;
+    background-color: var(--Cyan);
+    color: white;
+    font-weight: 600;
+}
