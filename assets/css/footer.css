@@ -1,3 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Very-Dark-Blue);
+  color: white;
+  text-align: center;
+}
+
+.footer__item {
+  padding: 1em;
+}
+
+.link__title {
+  padding: 1em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.link__item-link {
+ color: var(--Gray-Clean);
+ line-height: 2em;
+  
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
