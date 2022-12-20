@@ -23,3 +23,11 @@
     color: white;
     font-weight: 600;
 }
+
+@media screen and (min-width: 1440px) {
+    .primary {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 6em;
+    }
+}

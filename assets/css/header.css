@@ -8,3 +8,23 @@
     border: none;
     background-color: transparent;
 }
+
+@media screen and (min-width: 768px) {
+    .header {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4em 6em;
+    }
+
+    .menu__mobile {
+        display: none;
+    }
+
+    .menu__descktop {
+        margin-right: 3em;
+    }
+    .descktop__link {
+        padding: 1.5em;
+        color: var(--Grayish-Violet);
+
+}

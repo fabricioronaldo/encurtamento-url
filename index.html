@@ -17,19 +17,30 @@
 <body>
   <header class="header">
     <img src="./assets/images/logo.svg" alt="Imagem do logotipo da empresa">
-    
+
     <nav class="header__menu">
-      <button class="menu__button"><img src="./assets/images/icon-menu.svg" alt=""></button>  
+      <div class="menu__mobile">
+        <button class="menu__button"><img src="./assets/images/icon-menu.svg" alt=""></button>
+      </div>
+      <div class="menu__desktop">
+        <a href="#" class="descktop__link">Features</a>
+        <a href="#" class="descktop__link">Pricing</a>
+        <a href="#" class="descktop__link">Resources</a>
+      </div>
+
     </nav>
   </header>
 
   <main>
     <section class="primary">
       <img class="primary__image" src="./assets/images/illustration-working.svg" alt="Imagem de trabalhador">
-      <h1 class="primary__title">More than just shorter links</h1>
-      <p class="primary__description">Build your brand’s recognition and get detailed insights
-        on how your links are performing.</p>
+      
+      <div class="primary_content">
+        <h1 class="primary__title">More than just shorter links</h1>
+        <p class="primary__description">Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
         <a href="#" class="primary__button">Get Started</a>
+      </div>
     </section>
 
     <section class="url">
@@ -42,36 +53,36 @@
       <h2 class="advanced__title">Advanced Statistics</h2>
       <p class="advanced__text">Track how your links are performing across the web with our
         advanced statistics dashboard.</p>
-      
-        <div class="card">
-          <div class="card__image">
-            <img class="card__image-icone" src="./assets/images/icon-brand-recognition.svg" alt="">
-          </div>
-          
-          <h3 class="card__title">Brand Recognition</h3>
-          <p class="card__text">Boost your brand recognition with each click. Generic links don’t
-            mean a thing. Branded links help instil confidence in your content.</p>
+
+      <div class="card">
+        <div class="card__image">
+          <img class="card__image-icone" src="./assets/images/icon-brand-recognition.svg" alt="">
         </div>
 
-        <div class="card">
-          <div class="card__image">
-            <img class="card__image-icone" src="./assets/images/icon-detailed-records.svg" alt="">
-          </div>
-          
-          <h3 class="card__title">Detailed Records</h3>
-          <p class="card__text">Gain insights into who is clicking your links. Knowing when and where
-            people engage with your content helps inform better decisions.</p>
+        <h3 class="card__title">Brand Recognition</h3>
+        <p class="card__text">Boost your brand recognition with each click. Generic links don’t
+          mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+
+      <div class="card">
+        <div class="card__image">
+          <img class="card__image-icone" src="./assets/images/icon-detailed-records.svg" alt="">
         </div>
 
-        <div class="card">
-          <div class="card__image">
-            <img class="card__image-icone" src="./assets/images/icon-fully-customizable.svg" alt="">
-          </div>
-          
-          <h3 class="card__title">Fully Customizable</h3>
-          <p class="card__text">Improve brand awareness and content discoverability through customizable
-            links, supercharging audience engagement.</p>
+        <h3 class="card__title">Detailed Records</h3>
+        <p class="card__text">Gain insights into who is clicking your links. Knowing when and where
+          people engage with your content helps inform better decisions.</p>
+      </div>
+
+      <div class="card">
+        <div class="card__image">
+          <img class="card__image-icone" src="./assets/images/icon-fully-customizable.svg" alt="">
         </div>
+
+        <h3 class="card__title">Fully Customizable</h3>
+        <p class="card__text">Improve brand awareness and content discoverability through customizable
+          links, supercharging audience engagement.</p>
+      </div>
     </section>
 
     <section class="link">
@@ -80,11 +91,11 @@
     </section>
 
   </main>
-  
+
   <footer class="footer">
 
-    <img class="footer__logo" src="./assets/images/logo.svg" alt="Imagem Logo">
-    
+    <img class="footer__logo" src="./assets/images/logo-w.svg" alt="Imagem Logo">
+
     <div class="footer__item">
       <ul class="footer__link">
         <li class="link__title">Features</li>
@@ -93,7 +104,7 @@
         <li class="link__item"><a class="link__item-link" href="#">Analytics</a></li>
       </ul>
     </div>
-    
+
     <div class="footer__item">
       <ul class="footer__link">
         <li class="link__title">Resources</li>
@@ -112,6 +123,12 @@
         <li class="link__item"><a class="link__item-link" href="#">Contact</a></li>
       </ul>
     </div>
+    <div class="footer__social">
+      <img src="./assets/images/icon-facebook.svg" alt="" class="social__img">
+      <img src="./assets/images/icon-twitter.svg" alt="" class="social__img">
+      <img src="./assets/images/icon-pinterest.svg" alt="" class="social__img">
+      <img src="./assets/images/icon-instagram.svg" alt="" class="social__img">
+    </div>
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
@@ -119,18 +136,16 @@
     </div>
   </footer>
 
-   
 
-  
-  Features
-  Pricing
-  Resources
+
+
+
 
   Login
   Sign Up
 
 
-  
+
 </body>
 
 </html>
