@@ -29,7 +29,7 @@
 }
 
 .footer__social {
-  padding: 1em;
+  padding: 3em;
 }
 
 .social__img {
@@ -45,4 +45,16 @@
     color: hsl(228, 45%, 44%);
   }
 
-  
+  @media screen and (min-width: 1440px){
+    .footer {
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-around;
+      
+    }
+
+    .footer__logo {
+      width: auto;
+    }
+
+  }

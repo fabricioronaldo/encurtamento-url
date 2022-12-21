@@ -30,4 +30,18 @@
         flex-direction: row-reverse;
         padding: 0 6em;
     }
+
+    .primary_content {
+        text-align: left;
+    }
+
+    .primary__title {
+        width: 80%;
+        font-size: 3.6em;
+    }
+    .primary__description{
+        width: 50%;
+        padding-bottom: 1em;
+        
+    }
 }

@@ -3,13 +3,30 @@
     justify-content: space-between;
     padding: 1em;
 }
+.menu__desktop {
+    display: none;   
+}
 
 .menu__button {
     border: none;
     background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {
+.login__button {
+    padding: 0em 1em;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--Cyan);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.login {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
     .header {
         justify-content: flex-start;
         align-items: center;
@@ -20,11 +37,20 @@
         display: none;
     }
 
-    .menu__descktop {
+    .menu__desktop {
+        display: block;
         margin-right: 3em;
     }
     .descktop__link {
         padding: 1.5em;
         color: var(--Grayish-Violet);
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+        margin-left: 50%;
+    }
+    
 
 }
