@@ -19,7 +19,7 @@ Página inicial de encurtamento de URL utilizando shrtcode API.
 - [X] Links
 - [X] Rodapé
 
-#### Descktop
+#### Desktop
 
 - [X] Logo 
 - [X] Menu principal 
@@ -35,6 +35,6 @@ Página inicial de encurtamento de URL utilizando shrtcode API.
 
 #### Descktop
 
-- [ ] Inplementando API
+- [X] Inplementando API
 - [ ] Incluindo retorno com as urls no html.
  
