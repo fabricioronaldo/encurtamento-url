@@ -45,6 +45,20 @@
     color: hsl(228, 45%, 44%);
   }
 
+  @media screen and (min-width: 1024px){
+    .footer {
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-around;
+      
+    }
+
+    .footer__logo {
+      width: auto;
+    }
+
+  }
+
   @media screen and (min-width: 1440px){
     .footer {
       flex-direction: row;

@@ -1,13 +1,18 @@
 const url = document.querySelector("#url");
 const button = document.querySelector(".url__button")
+const result = document.querySelector("#result");
 
 
 
 
 const showData = (result) => {
     console.log(result)
-    const item = document.querySelector(".item__link")
-    item.textContent = result.result.full_share_link
+    const link1 = document.querySelector(".link-1")
+    const link2 = document.querySelector(".link-2")
+    const link3 = document.querySelector(".link-3")
+    link1.textContent = result.result.share_link
+    link2.textContent = result.result.short_link
+    link3.textContent = result.result.short_link2
 
     /*for(const campo in result){
         console.log(result.result.full_share_link
@@ -17,10 +22,11 @@ const showData = (result) => {
 }
 
 button.addEventListener("click", (evento) => {
+    result.classList.remove("none");
     let search = url.value;
     fetch (`https://api.shrtco.de/v2/shorten?url=${search}`)
     .then(response => { response.json()
-        .then(data => showData(data)) 
+        .then(data => showData(data))
     })
     .catch(evento => console.log('Ocorreu um erro!!!' + evento,message))
 });

@@ -26,6 +26,36 @@
     display: none;
 }
 
+@media screen and (min-width: 1024px) {
+    .header {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 4em 6em;
+    }
+
+    .menu__mobile {
+        display: none;
+    }
+
+    .menu__desktop {
+        display: block;
+        margin-right: 3em;
+    }
+    .descktop__link {
+        padding: 1.5em;
+        color: var(--Grayish-Violet);
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+
+} 
+
+
 @media screen and (min-width: 1440px) {
     .header {
         justify-content: flex-start;
@@ -49,7 +79,7 @@
     .login {
         display: flex;
         align-items: center;
-        margin-left: 50%;
+        margin-left: auto;
     }
     
 
