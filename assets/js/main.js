@@ -36,3 +36,12 @@ button.addEventListener("click", (evento) => {
 /*fetch ('https://api.shrtco.de/v2/shorten?url=example.org/very/long/link.html')
 .then((response) => response.json())
 .then((data) => console.log(data));*/
+
+document.querySelector("button").onclick = function() {
+    var element= document.getElementById('numerosx');
+    var range = document.createRange();
+    range.selectNode(element);
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+};
+
