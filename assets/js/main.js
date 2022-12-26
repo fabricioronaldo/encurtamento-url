@@ -1,7 +1,8 @@
 const url = document.querySelector("#url");
 const button = document.querySelector(".url__button")
 const result = document.querySelector("#result");
-
+const copy = document.querySelector(".item__button");
+const url_encu = document.querySelector(".item__link")
 
 
 
@@ -32,16 +33,18 @@ button.addEventListener("click", (evento) => {
 });
 
 
-
-/*fetch ('https://api.shrtco.de/v2/shorten?url=example.org/very/long/link.html')
-.then((response) => response.json())
-.then((data) => console.log(data));*/
-
-document.querySelector("button").onclick = function() {
-    var element= document.getElementById('numerosx');
+/*copy.addEventListener("click", function() {
+    var element= document.getElementById('#numerosx');
     var range = document.createRange();
     range.selectNode(element);
     window.getSelection().addRange(range);
     document.execCommand("copy");
-};
+}); 
+*/
 
+function copy_text (evento) {
+    navigator.clipboard.writeText(url_encu.innerHTML);
+    copy.innerHTML = 'Copiado';
+}
+
+copy.addEventListener("click", copy_text); 
