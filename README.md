@@ -36,5 +36,5 @@ Página inicial de encurtamento de URL utilizando shrtcode API.
 #### Descktop
 
 - [X] Inplementando API
-- [ ] Incluindo retorno com as urls no html.
+- [X] Incluindo retorno com as urls no html.
  

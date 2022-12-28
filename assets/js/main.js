@@ -1,9 +1,8 @@
 const url = document.querySelector("#url");
-const button = document.querySelector(".url__button")
+const button = document.querySelector(".url__button");
 const result = document.querySelector("#result");
 const copy = document.querySelectorAll(".item__button");
-const url_encu = document.querySelector(".item__link")
-
+const url_encu = document.querySelector(".item__link");
 
 
 const showData = (result) => {
@@ -14,12 +13,6 @@ const showData = (result) => {
     link1.textContent = result.result.short_link
     link2.textContent = result.result.short_link2
     link3.textContent = result.result.short_link3
-
-    /*for(const campo in result){
-        console.log(result.result.full_share_link
-            )
-    }*/
-
 }
 
 button.addEventListener("click", (evento) => {
@@ -33,24 +26,16 @@ button.addEventListener("click", (evento) => {
 });
 
 
-/*copy.addEventListener("click", function() {
-    var element= document.getElementById('#numerosx');
-    var range = document.createRange();
-    range.selectNode(element);
-    window.getSelection().addRange(range);
-    document.execCommand("copy");
-}); 
-*/
-
-function copy_text () {
+function copy_text() {
     navigator.clipboard.writeText(url_encu.innerHTML);
-    copy[0].innerHTML = 'Copiado';
+    copy.innerHTML = 'Copiado';
 }
 
 for ( var i = 0; i < copy.length; i++ ) {
     copy[i].addEventListener("click", copy_text);
     
 }
-//copy.addEventListener("click", copy_text); 
 
 console.log(copy)
+
+
