@@ -24,32 +24,33 @@
     font-weight: 600;
 }
 
+.primary__image {
+    width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
     .primary {
+        width: 100%;
         display: flex;
         flex-direction: row-reverse;
+        justify-content: center;
         padding: 0 6em;
     }
     
     .primary__image {
-        position: relative;
-        left: 200px;
+        width: 50%;
     }
 
-
     .primary_content {
-        width: 100%;
         text-align: left;
     }
 
     .primary__title {
-        width: 100%;
         font-size: 2.6em;
     }
+
     .primary__description{
-        width: 100%;
         padding-bottom: 1em;
-        
     }
 }
 
